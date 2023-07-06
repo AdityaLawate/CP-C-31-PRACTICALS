@@ -39,5 +39,6 @@ main()
     int gd = DETECT, gm = 1;
     initgraph(&gd, &gm, "C:\\TurboC3\\BGI");
 
-    square(x1, y1, x2, y2)
+    square(x1, y1, x2, y2);
+    getch();
 }
